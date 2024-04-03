@@ -20,4 +20,3 @@ class DBConnectionHandler:
         
     def __exit__(self):
         self.__session.close()
-    
